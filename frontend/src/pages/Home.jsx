@@ -1,6 +1,8 @@
+import InitiativeBody from "../components/InitiativeBody/InitiativeBody";
+
 const Home = () => {
     return ( 
-        <h1>Nothing</h1>
+        <InitiativeBody />
      );
 }
  
