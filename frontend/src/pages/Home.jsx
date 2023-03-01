@@ -2,7 +2,9 @@ import InitiativeBody from "../components/InitiativeBody/InitiativeBody";
 
 const Home = () => {
     return ( 
-        <InitiativeBody />
+        <div className="m-16">
+            <InitiativeBody />
+        </div>
      );
 }
  

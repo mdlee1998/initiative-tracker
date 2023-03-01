@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 
 //Layouts
-import Main from "./layouts/Main";
+import Main from "./layouts/Main/Main";
 
 //Routes
 import Home from "./pages/Home";
@@ -26,9 +26,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
       <RouterProvider router={router}/>
-    </div>
   );
 }
 

@@ -1,5 +1,7 @@
 import InitiativeBodyRow from "../InitiativeBodyRow/InitiativeBodyRow";
 
+import "./InitiativeBody.scss";
+
 const InitiativeBody = () => {
   const encounterData = [
     { id: 1, initiative: 15, name: 'Ailane', armor_class: 28, hit_points: 6 },
@@ -28,7 +30,7 @@ const InitiativeBody = () => {
   ];
 
   return ( 
-    <div className="initiative-body">
+    <div className="initiative-body flex flex-col p-0.5 text-2xl">
         {encounterData.map(creature => <InitiativeBodyRow key={creature.id}>{creature}</InitiativeBodyRow>)}
     </div>
    );
